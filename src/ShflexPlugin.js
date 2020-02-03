@@ -5,9 +5,9 @@ import { FlexPlugin } from 'flex-plugin';
 import CustomTaskListContainer from './components/CustomTaskList/CustomTaskList.Container';
 import reducers, { namespace } from './states';
 
-const PLUGIN_NAME = 'SamplePlugin';
+const PLUGIN_NAME = 'MyPlugin';
 
-export default class SamplePlugin extends FlexPlugin {
+export default class MyPlugin extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
   }
